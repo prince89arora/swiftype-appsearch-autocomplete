@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Swiftype App AutoComplete</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <input type="text" class="search_input" id="search_query">
+    </div>
+
+    <script type="application/javascript" src="libs/jquery.js" ></script>
+    <script type="application/javascript" src="src/jquery.swiftype-appsearch-autocomplete.js" ></script>
+
+    <script>
+        $(function () {
+            $("#search_query").swiftypeAppAutoComplete({
+                searchKey: 'search-rnriiitwva7t6veuihn4t5if',
+                hostIdentifier: 'host-obvusx',
+                container: '.wrapper',
+                nameProperty: 'title',
+                "search_fields": {
+                    "title": {}
+                },
+                "result_fields": {
+                    "title": {
+                        "raw": {}
+                    }
+                },
+                engineIdentifier: 'hw',
+                page: {
+                    size: 5,
+                    current: 2
+                }
+            });
+        });
+    </script>
+</body>
+
+
+</html>
