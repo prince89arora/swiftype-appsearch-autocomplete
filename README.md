@@ -1,1 +1,1 @@
-##Swiftyoe AppSearch AutoComplete
+##Swiftype AppSearch AutoComplete
